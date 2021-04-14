@@ -46,7 +46,7 @@ YANG Yaxin    20442041
 
 
 **Notes:**
- 1. 3-D data visualization plots with 2 extracted factors are included in /EDA Graphs/FA/x, and /EDA Graphs/FA/x2
- 2. 3-D data visualization plots with 2 principal components are included in /EDA Graphs/PCA/x, /EDA Graphs/PCA/x1, and /EDA Graphs/PCA/x2
+ 1. 3-D data visualization plots with 2 extracted factors are included in /EDA Graphs/FA/x/, and /EDA Graphs/FA/x2/
+ 2. 3-D data visualization plots with 2 principal components are included in /EDA Graphs/PCA/x/, /EDA Graphs/PCA/x1/, and /EDA Graphs/PCA/x2/
  3. _"sales"_ and _"salary"_ do not make real sense in all correlation plots. We are just too lazy to exclude them.
  4. The list object _results_ are saved in /Results/R Workspace Files/ manually, i.e., saving process not included in codes.
