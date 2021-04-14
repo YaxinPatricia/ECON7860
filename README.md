@@ -41,8 +41,8 @@ YANG Yaxin    20442041
   - **"*_ind_1"**: [Partition 1 setting.]
   - **"*_ind_0"**: [Partition 0 setting.]
   - **"x"**: [Original dataset.]
-  - **"x1"**: [Subset which "time_spend_company" > 5]
-  - **"x2"**: [Subset which "time_spend_company" <= 5]
+  - **"x1"**: [Subset which _"time_spend_company"_ > 5]
+  - **"x2"**: [Subset which _"time_spend_company"_ <= 5]
 
 
 **Notes:**
