@@ -1,15 +1,16 @@
 # ECON7860 Big Data Analytics for Business
 
-Project files on the dataset "HR_Analytics"
+**Project files on the dataset "HR_Analytics"**
 
-Instructor: Dr. Wan Shui Ki
+**Instructor: Dr. Wan Shui Ki**
 
-Group Members:
-LU Qichang    20436343
-MIAO Zhaokuan 20431406
-OU Jiajie     20436335
-PAN Yihan     20428715
-YANG Yaxin    20442041
+**Group Members**:
+  LU Qichang    20436343
+  MIAO Zhaokuan 20431406
+  OU Jiajie     20436335
+  PAN Yihan     20428715
+  YANG Yaxin    20442041
+
 
 
 **Folders:**
@@ -27,12 +28,14 @@ YANG Yaxin    20442041
     - **/Rplot_boxplot.png**: [Boxplots of numeric features for outlier detection.]
 
 
+
 **Feature Engineering Settings:**
   1. **Original**: [dataset with only standardization and dummification.]
   2. **Indicator**: [transform _"time_spend_company"_ to an indicator variable (> 5 vs. < 6) + standardization + dummification.]
   3. **Partition 1**: [cases which _"time_spend_company"_ > 5 + standardization + dummification.]
   4. **Partition 0**: [cases which _"time_spend_company"_ <= 5 + standardization + dummification.]
   5. **FA**: [feature extraction with FA. 1 factor replacing variables_ “average_montly_hours”_, _“number_project”_, and _“last_evaluation”_. 1 factor replacing _"satisfaction_level"_.]
+
 
 
 **Suffix Annotations:**
@@ -43,6 +46,7 @@ YANG Yaxin    20442041
   - **"x"**: [Original dataset.]
   - **"x1"**: [Subset which _"time_spend_company"_ > 5]
   - **"x2"**: [Subset which _"time_spend_company"_ <= 5]
+
 
 
 **Notes:**
