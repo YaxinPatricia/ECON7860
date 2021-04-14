@@ -5,11 +5,11 @@
 **Instructor: Dr. Wan Shui Ki**
 
 **Group Members**:\
-  LU Qichang    20436343\
-  MIAO Zhaokuan 20431406\
-  OU Jiajie     20436335\
-  PAN Yihan     20428715\
-  YANG Yaxin    20442041  
+&emsp; LU Qichang    20436343\
+&emsp; MIAO Zhaokuan 20431406\
+&emsp; OU Jiajie     20436335\
+&emsp; PAN Yihan     20428715\
+&emsp; YANG Yaxin    20442041  
 
 <br /><br />
 **Folders:**
@@ -27,7 +27,7 @@
     - **/Rplot_boxplot.png**: [Boxplots of numeric features for outlier detection.]  
 
   
-  
+ <br /><br /> 
 **Feature Engineering Settings:**
   1. **Original**: [dataset with only standardization and dummification.]
   2. **Indicator**: [transform _"time_spend_company"_ to an indicator variable (> 5 vs. < 6) + standardization + dummification.]
@@ -36,7 +36,7 @@
   5. **FA**: [feature extraction with FA. 1 factor replacing variables_ “average_montly_hours”_, _“number_project”_, and _“last_evaluation”_. 1 factor replacing _"satisfaction_level"_.]  
 
   
-  
+<br /><br />
 **Suffix Annotations:**
   - **"*_org" (or"*_orig")**: [Original setting.]
   - **"*_ind"**: [Indicator setting.]
@@ -47,7 +47,7 @@
   - **"x2"**: [Subset which _"time_spend_company"_ <= 5]  
 
   
-  
+<br /><br />
 **Notes:**
  1. 3-D data visualization plots with 2 extracted factors are included in /EDA Graphs/FA/x/, and /EDA Graphs/FA/x2/
  2. 3-D data visualization plots with 2 principal components are included in /EDA Graphs/PCA/x/, /EDA Graphs/PCA/x1/, and /EDA Graphs/PCA/x2/
